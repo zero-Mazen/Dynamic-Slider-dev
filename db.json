@@ -1,0 +1,98 @@
+{
+  "students": [
+    {
+      "username": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "123",
+      "subject": {
+        "name": "الرياضيات",
+        "id": 2,
+        "degree": 30
+      },
+      "id": 1
+    },
+    {
+      "username": "ِِAli",
+      "email": "ali@user.com",
+      "password": "123",
+      "id": 2,
+      "subject": {
+        "name": "الرياضيات",
+        "id": "2",
+        "degree": 1
+      }
+    }
+  ],
+  "doctors": [
+    {
+      "username": "admin ",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "subjects": [
+    {
+      "questions": [
+        {
+          "question": "تيست اضافة مادة جديدة",
+          "answer1": "فين",
+          "answer2": "ومين",
+          "answer3": "وامتي",
+          "answer4": "وليه",
+          "correctAnswer": {
+            "id": "3",
+            "answer": "وامتي"
+          }
+        },
+        {
+          "question": "تيست اضافة سؤال جديد",
+          "answer1": "هاو",
+          "answer2": "ويير",
+          "answer3": "وين",
+          "answer4": "وااي",
+          "correctAnswer": {
+            "id": "4",
+            "answer": "وااي"
+          }
+        }
+      ],
+      "name": "اللغة العربية",
+      "id": 1
+    },
+    {
+      "questions": [
+        {
+          "question": "2*2",
+          "answer1": "2",
+          "answer2": "3",
+          "answer3": "4",
+          "answer4": "5",
+          "correctAnswer": {
+            "answer": "4"
+          }
+        },
+        {
+          "question": "4*25",
+          "answer1": "75",
+          "answer2": "100",
+          "answer3": "125",
+          "answer4": "150",
+          "correctAnswer": {
+            "answer": "100"
+          }
+        }
+      ],
+      "name": "الرياضيات",
+      "id": 2
+    }
+  ],
+  "logedin": [
+    {
+      "username": "admin ",
+      "role": "doctors",
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}
